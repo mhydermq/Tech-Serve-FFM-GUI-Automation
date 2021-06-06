@@ -1,0 +1,377 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-06T18:49:55.771Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11430226400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As an FFM OT member, I want to login to FFM platform",
+        "description": "",
+        "id": "ffm-ot-member-login-panel;as-an-ffm-ot-member--i-want-to-login-to-ffm-platform;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5626009100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55360100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to view the FFM login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 371008000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to give valid \"user@example.com\" and \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@example.com\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_give_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45877400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035705100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-06T18:50:15.410Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15240818900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "As an FFM OT member, I want to login to FFM platform",
+        "description": "",
+        "id": "ffm-ot-member-login-panel;as-an-ffm-ot-member--i-want-to-login-to-ffm-platform;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5647500100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42884300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to view the FFM login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352051500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to give valid \"user@example.com\" and \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@example.com\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_give_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41889100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2519149100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-06T18:50:39.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13058848600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "As an FFM OT member, I want to login to FFM platform",
+        "description": "",
+        "id": "ffm-ot-member-login-panel;as-an-ffm-ot-member--i-want-to-login-to-ffm-platform;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 5597781500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24933000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to view the FFM login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 353277800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to give valid \"user@example.com\" and \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@example.com\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_give_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57845700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1784219300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-06T18:51:00.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20623387400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As an FFM OT member, I want to login to FFM platform",
+        "description": "",
+        "id": "ffm-ot-member-login-panel;as-an-ffm-ot-member--i-want-to-login-to-ffm-platform;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 5626420400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30916100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to view the FFM login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334200800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to give valid \"user@example.com\" and \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@example.com\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_give_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49867300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4292626300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FFM OT Member Login Panel",
+    "description": "",
+    "id": "ffm-ot-member-login-panel",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/ffm/features/TechServe4U_FFM_01_OTMemberLogin.feature",
+    "tags": []
+  }
+]
