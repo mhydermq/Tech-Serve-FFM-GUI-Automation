@@ -24,8 +24,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream inputProperties = new FileInputStream(
-					"C:\\Users\\Pranto Mazumder\\eclipse-workspace\\com.ffm.framework"
-							+ "\\src\\test\\java\\com\\ffm\\config\\config.properties");
+					"src/test/java/com/ffm/config/config.properties");
 			prop.load(inputProperties);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
