@@ -74,12 +74,14 @@
 			<artifactId>cucumber-testng</artifactId>
 			<version>6.9.1</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.github.ralfstuckert.pdfbox-layout/pdfbox2-layout -->
         <dependency>
             <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
             <artifactId>pdfbox2-layout</artifactId>
             <version>0.8.6</version>
         </dependency>
+
 	</dependencies>
 	
 	<repositories>
