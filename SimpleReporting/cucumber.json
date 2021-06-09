@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-07T00:40:10.418Z",
+        "start_timestamp": "2021-06-09T18:39:57.790Z",
         "before": [
           {
             "result": {
-              "duration": 3253000000,
+              "duration": 3709000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 5806000000,
+              "duration": 752000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 141000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 431000000,
+              "duration": 442000000,
               "status": "passed"
             },
             "line": 7,
@@ -69,98 +69,7 @@
           },
           {
             "result": {
-              "duration": 95000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should be able to click on the login button",
-            "match": {
-              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 348000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I should be able to view the FFM platform",
-            "match": {
-              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_platform()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-06-07T00:40:20.621Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2074000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "As an FFM OT member, I want to login to FFM platform",
-        "description": "",
-        "id": "ffm-ot-member-login-panel;as-an-ffm-ot-member--i-want-to-login-to-ffm-platform;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 5773000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 96000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I should be able to view the FFM login panel",
-            "match": {
-              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_login_panel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 410000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I should be able to give valid \"user@example.com\" and \"string\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"user@example.com\"",
-                  "offset": 31
-                },
-                {
-                  "val": "\"string\"",
-                  "offset": 54
-                }
-              ],
-              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_give_valid_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 120000000,
+              "duration": 132000000,
               "status": "passed"
             },
             "line": 8,
@@ -185,11 +94,102 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-07T00:40:29.440Z",
+        "start_timestamp": "2021-06-09T18:40:03.406Z",
         "before": [
           {
             "result": {
-              "duration": 2039000000,
+              "duration": 2017000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "As an FFM OT member, I want to login to FFM platform",
+        "description": "",
+        "id": "ffm-ot-member-login-panel;as-an-ffm-ot-member--i-want-to-login-to-ffm-platform;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 814000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ffm.stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to view the FFM login panel",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_login_panel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to give valid \"user@example.com\" and \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@example.com\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_give_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to click on the login button",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to view the FFM platform",
+            "match": {
+              "location": "com.ffm.stepDefinitions.FFM_OTMember_Login_Steps.i_should_be_able_to_view_the_ffm_platform()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-09T18:40:07.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2090000000,
               "status": "passed"
             },
             "match": {
@@ -204,7 +204,7 @@
         "after": [
           {
             "result": {
-              "duration": 5755000000,
+              "duration": 779000000,
               "status": "passed"
             },
             "match": {
@@ -217,7 +217,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55000000,
+              "duration": 71000000,
               "status": "passed"
             },
             "line": 6,
@@ -229,7 +229,7 @@
           },
           {
             "result": {
-              "duration": 435000000,
+              "duration": 581000000,
               "status": "passed"
             },
             "line": 7,
@@ -251,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 92000000,
+              "duration": 103000000,
               "status": "passed"
             },
             "line": 8,
@@ -263,7 +263,7 @@
           },
           {
             "result": {
-              "duration": 405000000,
+              "duration": 355000000,
               "status": "passed"
             },
             "line": 9,
@@ -276,11 +276,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-07T00:40:38.239Z",
+        "start_timestamp": "2021-06-09T18:40:11.181Z",
         "before": [
           {
             "result": {
-              "duration": 2092000000,
+              "duration": 2060000000,
               "status": "passed"
             },
             "match": {
@@ -295,7 +295,7 @@
         "after": [
           {
             "result": {
-              "duration": 5778000000,
+              "duration": 763000000,
               "status": "passed"
             },
             "match": {
@@ -308,7 +308,7 @@
         "steps": [
           {
             "result": {
-              "duration": 90000000,
+              "duration": 63000000,
               "status": "passed"
             },
             "line": 6,
@@ -320,7 +320,7 @@
           },
           {
             "result": {
-              "duration": 450000000,
+              "duration": 519000000,
               "status": "passed"
             },
             "line": 7,
@@ -342,7 +342,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 142000000,
               "status": "passed"
             },
             "line": 8,
@@ -354,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 457000000,
+              "duration": 444000000,
               "status": "passed"
             },
             "line": 9,

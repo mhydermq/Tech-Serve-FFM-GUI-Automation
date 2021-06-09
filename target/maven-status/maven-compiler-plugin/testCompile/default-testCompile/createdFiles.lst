@@ -1,5 +1,0 @@
-com\ffm\utils\TestBase.class
-com\ffm\stepDefinitions\FFM_OTMember_Login_Steps.class
-com\ffm\pages\OTMember_Login_POM.class
-com\ffm\stepDefinitions\HooksSteps.class
-com\ffm\runner\TestRunner.class

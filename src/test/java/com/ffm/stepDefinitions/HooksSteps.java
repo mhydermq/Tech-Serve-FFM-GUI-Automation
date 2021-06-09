@@ -1,5 +1,7 @@
 package com.ffm.stepDefinitions;
 
+
+
 import com.ffm.utils.TestBase;
 
 import io.cucumber.java.After;
@@ -21,14 +23,7 @@ public class HooksSteps extends TestBase {
 	
 	@After
 	public void tearDown() {
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		driver.quit();
 		
 	}
-
 }
